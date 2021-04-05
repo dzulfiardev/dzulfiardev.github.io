@@ -33,27 +33,6 @@ li {
   width: 100%;
   height: 100vh;
 }
-.hero_image {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../img/dzulfikar01.jpg");
-  background-position: bottom center;
-  background-size: cover;
-}
-.hero_image_2 {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../img/dzulfikar02.jpg");
-  background-position: center center;
-  background-size: cover;
-}
-.hero_image_3 {
-  width: 100%;
-  height: 100vh;
-  background-image: url("../img/dzulfikar03.jpg");
-  background-position: bottom center;
-  background-size: cover;
-}
 .author_info {
   width: 100%;
   height: 100vh;
@@ -114,25 +93,6 @@ li {
   background-color: rgb(124, 189, 211);
 }
 
-@media screen and (max-width: 900px) {
-  .author_info {
-    width: 110%;
-  }
-  .my_icons {
-    font-size: 30px;
-    letter-spacing: 1px !important;
-  }
-  #portfolio img {
-    height: 350px;
-    width: 100%;
-    object-fit: cover;
-    object-position: top center;
-  }
-  .copyright_text {
-    padding-bottom: 100px;
-  }
-}
-
 @media (max-width: 991.98px) {
   .desc p {
     font-size: 14px;
@@ -152,9 +112,26 @@ li {
     width: 70px;
     margin: 10px 0;
   }
+
+  .author_info {
+    width: 110%;
+  }
+  .my_icons {
+    font-size: 30px;
+    letter-spacing: 1px !important;
+  }
+  #portfolio img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+  .copyright_text {
+    padding-bottom: 100px;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   .my_skill img {
     width: 170px;
     margin: 30px 0;
