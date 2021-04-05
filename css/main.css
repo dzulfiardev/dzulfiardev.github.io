@@ -93,6 +93,25 @@ li {
   background-color: rgb(124, 189, 211);
 }
 
+@media (max-width: 900px) {
+  .author_info {
+    width: 110%;
+  }
+  .my_icons {
+    font-size: 30px;
+    letter-spacing: 1px !important;
+  }
+  #portfolio img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+  }
+  .copyright_text {
+    padding-bottom: 100px;
+  }
+}
+
 @media (max-width: 991.98px) {
   .desc p {
     font-size: 14px;
@@ -111,23 +130,6 @@ li {
   .my_skill img {
     width: 70px;
     margin: 10px 0;
-  }
-
-  .author_info {
-    width: 110%;
-  }
-  .my_icons {
-    font-size: 30px;
-    letter-spacing: 1px !important;
-  }
-  #portfolio img {
-    height: 350px;
-    width: 100%;
-    object-fit: cover;
-    object-position: top center;
-  }
-  .copyright_text {
-    padding-bottom: 100px;
   }
 }
 
