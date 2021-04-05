@@ -28,11 +28,11 @@ li {
 }
 .container_hero_image {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 .author_info {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 .little_text {
   font-size: 10px;
