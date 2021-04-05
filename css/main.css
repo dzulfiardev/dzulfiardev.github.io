@@ -1,5 +1,7 @@
 html {
   overflow-x: hidden;
+}
+#colorlib-page {
   scroll-behavior: smooth;
 }
 .divider {
@@ -92,6 +94,9 @@ li {
 }
 
 @media (max-width: 991.98px) {
+  html {
+    scroll-behavior: smooth;
+  }
   .desc p {
     font-size: 14px;
   }
