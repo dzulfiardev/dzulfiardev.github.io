@@ -1,9 +1,8 @@
 html {
   overflow-x: hidden;
-}
-body {
   scroll-behavior: smooth;
 }
+
 .divider {
   width: 100px;
   height: 3px;
@@ -93,7 +92,20 @@ li {
   background-color: rgb(124, 189, 211);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 991.98px) {
+  .desc p {
+    font-size: 14px;
+  }
+  .side_menu {
+    display: none;
+  }
+  .navigasi_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20%;
+    padding-bottom: -5px;
+  }
   .author_info {
     width: 110%;
   }
@@ -109,22 +121,6 @@ li {
   }
   .copyright_text {
     padding-bottom: 100px;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .desc p {
-    font-size: 14px;
-  }
-  .side_menu {
-    display: none;
-  }
-  .navigasi_bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20%;
-    padding-bottom: -5px;
   }
 
   .my_skill img {
