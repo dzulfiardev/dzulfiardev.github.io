@@ -68,6 +68,12 @@ li {
   object-fit: cover;
   object-position: top center;
 }
+.portfolio_title {
+  color: rgb(67, 145, 172);
+}
+.portfolio_title:hover {
+  color: rgb(124, 189, 211);
+}
 #contact {
   background-color: rgb(241, 240, 240);
 }
